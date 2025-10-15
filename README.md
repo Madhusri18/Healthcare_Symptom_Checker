@@ -29,3 +29,5 @@ All user queries and AI analyses are stored in:
 backend/symptoms.db
 
 git clone https://github.com/Madhusri18/Healthcare_Symptom_Checker
+
+demo_video :  https://github.com/user-attachments/assets/bd83882d-c04b-44dc-a9c5-23ca118bd19b
