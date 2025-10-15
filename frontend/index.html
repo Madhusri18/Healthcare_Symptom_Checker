@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🩺 Healthcare Symptom Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <div id="startScreen">
+      <h1>🩺 Healthcare Symptom Checker</h1>
+      <p class="tagline">Not sure if you need a doctor? The Symptom Checker can help you decide what to do next.</p>
+
+      <div class="form-box">
+        <h2>Get Started</h2>
+        <p>Who is this symptom check for?</p>
+
+        <div class="radio-group">
+          <label><input type="radio" name="checkFor" value="Me"> Me</label><br>
+          <label><input type="radio" name="checkFor" value="Someone else"> Someone else</label>
+        </div>
+
+        <button id="startBtn">Start Symptom Check</button>
+      </div>
+    </div>
+
+   
+    <div id="symptomScreen" class="hidden">
+      <h1>🩺 Healthcare Symptom Checker</h1>
+      <p class="tagline">Your personal AI health guide — understand your symptoms and learn what to do next.</p>
+
+      <div class="form-box">
+        <h2>Describe Your Symptoms</h2>
+        <textarea id="symptoms" placeholder="Describe the symptom"></textarea>
+        <button id="analyzeBtn">Analyze Symptoms</button>
+      </div>
+
+     
+      <div id="conditionsBox" class="output-box hidden"></div>
+      <div id="stepsBox" class="output-box hidden"></div>
+      <div id="disclaimerBox" class="output-box hidden"></div>
+
+  
+      <div id="result" class="hidden"></div>
+
+    
+      <div class="footer">
+        <p><strong>Disclaimer:</strong> This tool is for educational and informational purposes only.
+        It does not provide medical advice, diagnosis, or treatment.
+        Always consult a qualified healthcare provider for medical concerns.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
