@@ -2,10 +2,7 @@ import os
 import requests
 from dotenv import load_dotenv
 
-# Load API key from .env file
-load_dotenv()
-
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_API_KEY = "AIzaSyD6oYd6BsrGBB_EDU75Ut6qC3MRP7m_zYY"
 BASE_URL = "https://generativelanguage.googleapis.com/v1beta/models"
 
 def list_available_models():
