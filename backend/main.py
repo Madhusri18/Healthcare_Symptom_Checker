@@ -15,7 +15,6 @@ app = FastAPI()
 init_db()
 
 
-load_dotenv()
 
 app = FastAPI(
     title="AI Symptom Checker Backend",
@@ -31,7 +30,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_API_KEY = "AIzaSyD6oYd6BsrGBB_EDU75Ut6qC3MRP7m_zYY"
 MODEL_NAME = "gemini-2.5-flash"
 GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL_NAME}:generateContent"
 
