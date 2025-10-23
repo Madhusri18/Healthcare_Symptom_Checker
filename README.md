@@ -34,9 +34,9 @@ backend/symptoms.db
 - Enter your symptoms and get instant AI-driven analysis
 - Structured results with:
 
-1)Possible Conditions
-2)Next Steps
-3)Disclaimer
+1) Possible Conditions 
+2) Next Steps
+3) Disclamier
 
 - Interactive, responsive, and healthcare-themed interface
 - Stores all symptom queries and results in a SQLite database
